@@ -1,11 +1,11 @@
 Interrupteur pour ampoules MILIGHT.
 Nous allons apprendre à contrôler des ampoules milight depuis un Arduino.
 
-![milight](https://github.com/pigetArduino/doc/tree/master/milight.png)
+![milight](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight.png)
 
 Les ampoules milights communiquent en 2.4Ghz avec une passerelle Wifi.
 
-![milightRouting](https://github.com/pigetArduino/doc/tree/master/milightRouting.png)
+![milightRouting](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milightRouting.png)
 
 Nous pouvons communiquer directement avec les ampoules sans passer par la passerelle wifi, à l'aide de module radio nrf24l01+
 Nous allons voir comment fabriquer une télécommande ON/OFF
@@ -19,9 +19,9 @@ Total	5€
 # Branchement
 **Les modules nrf fonctionnent en 3.3V , ne les relier pas en 5v.**
 
-![nrf_pinout](https://github.com/pigetArduino/doc/tree/master/nrf_pinout.png)
+![nrf_pinout](https://github.com/pigetArduino/milightONOFF/raw/master/doc/nrf_pinout.png)
 
-![touchsensor](https://github.com/pigetArduino/doc/tree/master/touchsensor.png)
+![touchsensor](https://github.com/pigetArduino/milightONOFF/raw/master/doc/touchsensor.png)
 
 ```
 D4	Bouton OFF (SIG)
