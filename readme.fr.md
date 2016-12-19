@@ -37,7 +37,7 @@ D13	NRF (vert)
 GND	Boutons (GND) / NRF (noir)
 ```
 
-# Vérification
+# Vérification (milightONOFF_test.ino)
 Nous allons utiliser un programme de test pour vérifier que tout est correctement branché.
 * Télécharger http://milightONOFF.madnerd.org
 * Ouvrez le croquis **milightONOFF_test** puis téléverser le sur votre **Arduino Nano**.     
@@ -68,11 +68,11 @@ CRC Length	 = 16 bits
 PA Power	 = PA_MAX
 ```
 
-# Récupération des codes radio
+# Récupération des codes radio (milight_receive.ino)
 * Récupérer http://milightreceive.madnerd.org
 * Ouvrez le croquis **milightONOFF_receive** puis téléverser le.
 * Ouvrez le moniteur série
-Allumer votre lampe puis éteignez la à l'aide de votre **smartphone**
+**Allumer** votre lampe puis **éteignez là**, à l'aide de votre **smartphone**
 Notez les codes reçus
 
 ```
@@ -82,7 +82,7 @@ Press a button on your smartphone to receive radiocodes
 0xD8 0x34 0x4A 0x00 0x01 0x03 0x2D .......
 ```
 
-# Envoyer des codes radio
+# Envoyer des codes radio (milightONOFF.ino)
 
 Il ne nous reste plus qu'à essayer de renvoyer ces codes avec notre arduino.
 
