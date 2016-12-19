@@ -1,9 +1,11 @@
 [Original](http://github.com/pigetArduino/milightONOFF)
 
 Interrupteur pour ampoules MILIGHT
-------------------------------------
-Nous allons apprendre à contrôler des ampoules milight depuis un Arduino.
-Basée sur les travaux de Henryk Plötz: https://hackaday.io/project/5888-reverse-engineering-the-milight-on-air-protocol     
+------------------------------------ 
+Nous allons apprendre à contrôler des ampoules milight depuis un Arduino.       
+Basée sur les travaux de Henryk Plötz: https://hackaday.io/project/5888-reverse-engineering-the-milight-on-air-protocol       
+
+![milight_photo](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight_photo.png)
 
 ![milight](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight.png)
 

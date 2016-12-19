@@ -1,9 +1,11 @@
-[Version française]()
+[Version française](https://github.com/pigetArduino/milightONOFF/blob/master/readme.fr.md)
 
 MILIGHT switch
 ------------------------------------
-How to control MILIGHT bulbs with Arduino.
-Based on Henryk Plötz works : https://hackaday.io/project/5888-reverse-engineering-the-milight-on-air-protocol
+How to control MILIGHT bulbs with Arduino.           
+Based on Henryk Plötz works : https://hackaday.io/project/5888-reverse-engineering-the-milight-on-air-protocol     
+
+![milight_photo](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight_photo.png)
 
 ![milight](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight.png)
 
