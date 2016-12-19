@@ -5,7 +5,7 @@ MILIGHT switch
 How to control MILIGHT bulbs with Arduino.           
 Based on Henryk Plötz works : https://hackaday.io/project/5888-reverse-engineering-the-milight-on-air-protocol     
 
-![milight_photo](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight_photo.png)
+![milight_photo](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight_photo.jpg)
 
 ![milight](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight.png)
 
