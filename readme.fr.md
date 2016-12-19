@@ -72,7 +72,7 @@ PA Power	 = PA_MAX
 * Récupérer http://milightreceive.madnerd.org
 * Ouvrez le croquis **milightONOFF_receive** puis téléverser le.
 * Ouvrez le moniteur série
-**Allumer** votre lampe puis **éteignez là**, à l'aide de votre **smartphone**
+**Allumer** votre lampe puis **éteignez là**, à l'aide de votre **smartphone**  
 Notez les codes reçus
 
 ```
