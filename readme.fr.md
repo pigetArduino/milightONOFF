@@ -1,4 +1,5 @@
-Interrupteur pour ampoules MILIGHT.
+Interrupteur pour ampoules MILIGHT
+------------------------------------
 Nous allons apprendre à contrôler des ampoules milight depuis un Arduino.
 
 ![milight](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight.png)
@@ -37,14 +38,18 @@ GND	Boutons (GND) / NRF (noir)
 ```
 
 # Vérification
-
+Nous allons utiliser un programme de test pour vérifier que tout est correctement branché.
+* Télécharger http://milightONOFF.madnerd.org
 * Ouvrez le croquis **milightONOFF_test** puis téléverser le sur votre **Arduino Nano**.     
-* Ouvrez le moniteur série (Outils -> Moniteur série)    
-Vous devriez voir les paramètres du module radio, si tout les paramètres sont à 0x00 alors le module n'est pas reconnu    
-* Appuyez sur les boutons tactiles , vous devriez voir le message :    
-Button ON Pressed ou Button OFF Pressed selon le bouton    
+* Ouvrez le **moniteur série** (Outils -> Moniteur série)    
+Vous devriez voir les paramètres du module radio, si tout les paramètres sont à **0x00** alors le module n'est pas reconnu    
+* Appuyez sur les **boutons tactiles** , vous devriez voir le message :    
+````
+Button ON Pressed 
+Button OFF Pressed
+````    
 
-Paramètres du module radio     
+Exemple, paramètres du module radio     
 ```
 STATUS		 = 0x0e RX_DR=0 TX_DS=0 MAX_RT=0 RX_P_NO=7 TX_FULL=0
 RX_ADDR_P0-1	 = 0xe7e7e7e7e7 0xc2c2c2c2c2
@@ -64,10 +69,10 @@ PA Power	 = PA_MAX
 ```
 
 # Récupération des codes radio
-
+* Récupérer http://milightreceive.madnerd.org
 * Ouvrez le croquis **milightONOFF_receive** puis téléverser le.
 * Ouvrez le moniteur série
-Allumer votre lampe puis éteignez la à l'aide de votre smartphone
+Allumer votre lampe puis éteignez la à l'aide de votre **smartphone**
 Notez les codes reçus
 
 ```
@@ -81,11 +86,9 @@ Press a button on your smartphone to receive radiocodes
 
 Il ne nous reste plus qu'à essayer de renvoyer ces codes avec notre arduino.
 
-Ouvrez le croquis milightONOFF
+* Ouvrez le croquis **milightONOFF.ino**
 Modifier la ligne 23/24 et mettez le code que vous avez précédemment reçu
+```
 int on [7] = { 0x00, 0x00, 0x00 ,0x00, 0x00, 0x00, 0x01};
 int off [7] = { 0x00, 0x00, 0x00 ,0x00, 0x00, 0x00, 0x01};
-Téléverser le code
-Appuyez sur les boutons et vérifier que la lampe s'allume et s'éteint bien
-Voilà notre télécommande est prête, il reste bien entendu à créer le boitier et souder les composants.
-Je rajouterais cette partie ultérieurement.
+```
