@@ -1,15 +1,18 @@
+[Original](http://github.com/pigetArduino/milightONOFF)
+
 Interrupteur pour ampoules MILIGHT
 ------------------------------------
 Nous allons apprendre à contrôler des ampoules milight depuis un Arduino.
+Basée sur les travaux de Henryk Plötz: https://hackaday.io/project/5888-reverse-engineering-the-milight-on-air-protocol     
 
 ![milight](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milight.png)
 
-Les ampoules milights communiquent en 2.4Ghz avec une passerelle Wifi.
+Les ampoules milights communiquent en **2.4Ghz** avec une passerelle **WIFI**.
 
 ![milightRouting](https://github.com/pigetArduino/milightONOFF/raw/master/doc/milightRouting.png)
 
-Nous pouvons communiquer directement avec les ampoules sans passer par la passerelle wifi, à l'aide de module radio nrf24l01+
-Nous allons voir comment fabriquer une télécommande ON/OFF
+Nous pouvons communiquer directement avec les ampoules **sans passer par la passerelle wifi**, à l'aide de module radio **nrf24l01+**
+Nous allons voir comment fabriquer une **télécommande ON/OFF**
 
 # Composants nécessaires
 * 1 Arduino nano (compatible)	2€	   
