@@ -49,8 +49,8 @@ First we need to check if everything is correctly wired using a test program.
 * Open the **serial monitor**    
 
 ## Check radio module
-You should see your radio module paramaters, if all parameters are set to **0x00**, the module is not correctly wired       
-Parameters Example     
+You should see your radio module parameters, if all parameters are set to **0x00**, the module is not correctly wired       
+**Example** 
 ```
 STATUS		 = 0x0e RX_DR=0 TX_DS=0 MAX_RT=0 RX_P_NO=7 TX_FULL=0
 RX_ADDR_P0-1	 = 0xe7e7e7e7e7 0xc2c2c2c2c2
@@ -70,7 +70,7 @@ PA Power	 = PA_MAX
 ```
 
 ## Switchs
-* Press the tactile switch, you should see this message :    
+Press the **tactile switchs**, you should see this message :    
 ````
 Button ON Pressed 
 Button OFF Pressed
@@ -93,7 +93,7 @@ Press a button on your smartphone to receive radiocodes
 # Send radio codes (milightONOFF.ino)
 
 * Open **milightONOFF/milightONOFF.ino**
-* Change the code in line 23/24
+* Change the code in line **23/24**
 * Upload the code
 ```
 int on [7] = { 0x00, 0x00, 0x00 ,0x00, 0x00, 0x00, 0x01};
